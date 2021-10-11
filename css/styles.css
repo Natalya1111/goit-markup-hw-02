@@ -24,6 +24,9 @@ body {
 ul {
   list-style: none;
 }
+.link {
+  text-decoration: none;
+}
 
 /* Site nav */
 
@@ -76,6 +79,11 @@ ul {
 
 /* Team */
 .team-list .title {
+  color: var(--title-text-color);
+}
+
+/* Portfolio */
+.image-list .title{
   color: var(--title-text-color);
 }
 
